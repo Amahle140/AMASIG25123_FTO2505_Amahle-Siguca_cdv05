@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic page info -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Amahle Siguca - Student Developer Portfolio"
+    />
+    <title>Amahle Siguca - Student Portfolio</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <!-- Logo/Name -->
+        <a href="#home" class="logo">Amahle<span class="dot">.</span></a>
+
+        <!-- Menu Links -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile menu button -->
+        <div class="menu-btn" id="menuBtn">☰</div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION (Top of page) -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I’m <span class="highlight">Amahle Siguca</span></h1>
+        <p class="subtitle">A passionate student learning web development ✨</p>
+        <div class="buttons">
+          <a href="#projects" class="btn primary">See My Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="intro">
+          I’m a dedicated student exploring the world of
+          <strong>web development</strong>. I enjoy turning ideas into reality
+          with clean and creative code. 🌍
+        </p>
+
+        <!-- Simple stats -->
+        <div class="stats">
+          <div class="stat-box">
+            <h3>6+</h3>
+            <p>Months Learning</p>
+          </div>
+          <div class="stat-box">
+            <h3>5</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-box">
+            <h3>3</h3>
+            <p>Languages</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2>My Projects</h2>
+        <p class="section-subtitle">
+          A few fun projects I’ve built while learning 👩‍💻
+        </p>
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">📱</div>
+            <h3>To-Do App</h3>
+            <p>
+              A simple task manager where you can add, delete, and mark tasks as
+              complete.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link">🔗 Live</a>
+              <a href="#" class="link">💻 GitHub</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img">🌤️</div>
+            <h3>Weather App</h3>
+            <p>
+              A weather app that shows real-time data for any city using a
+              weather API.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span
+              ><span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link">🔗 Live</a>
+              <a href="#" class="link">💻 GitHub</a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">🎮</div>
+            <h3>Quiz Game</h3>
+            <p>
+              A fun quiz game with multiple choice questions, score tracking,
+              and results at the end.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link">🔗 Live</a>
+              <a href="#" class="link">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p class="section-subtitle">
+          Let’s connect! Fill out the form or reach out directly 📬
+        </p>
+        <div class="contact-content">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <div class="contact-details">
+              <p>
+                📧
+                <a href="mailto:amahle.student@example.com"
+                  >amahle.student@example.com</a
+                >
+              </p>
+              <p>📱 +27 123 456 7890</p>
+              <p>📍 Centurion, South Africa</p>
+            </div>
+          </div>
+
+          <!-- Simple Contact Form -->
+          <div class="contact-form">
+            <form id="contactForm">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="btn primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>
+        &copy; 2025 <strong>Amahle Siguca</strong>. Made with ❤️ by a student
+        developer.
+      </p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
